@@ -1,0 +1,19 @@
+<!-- <view class="container">
+  <text class="plain">No.</text>
+  <text class="index">{{_index}}</text>
+  <text>|</text>
+  <text>{{month}}</text>
+  <text>{{year}}</text>
+  <view class="vertical-line"></view>
+</view> -->
+<view class="container">
+  <view class="index-container">
+    <text class="plain">No.</text>
+    <text class="index">{{_index}}</text>
+    <view class="line"></view>
+  </view>
+  <view class="date-container">
+    <text>{{month}}</text>
+    <text>{{year}}</text>
+  </view>
+</view>
